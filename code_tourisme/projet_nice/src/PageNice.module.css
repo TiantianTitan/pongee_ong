@@ -1,0 +1,444 @@
+.bgNice1Icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 952.4px;
+    object-fit: cover;
+}
+.bgHeader {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.home {
+    position: absolute;
+    top: 36px;
+    left: 195px;
+    color: #fff;
+    display: inline-block;
+    width: 76px;
+    height: 37px;
+    cursor: pointer;
+}
+.aboutUs {
+    position: absolute;
+    top: 36px;
+    left: 306px;
+    display: inline-block;
+    width: 86px;
+    cursor: pointer;
+}
+.phoneIcon {
+    position: absolute;
+    top: 26px;
+    left: 1706px;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.destinations {
+    position: absolute;
+    top: 36px;
+    left: 427px;
+    display: inline-block;
+    width: 222px;
+    height: 74px;
+    cursor: pointer;
+}
+.menuIcon {
+    position: absolute;
+    top: 26px;
+    left: 1789px;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+}
+.logoOng1Icon {
+    position: absolute;
+    top: 8px;
+    left: 39px;
+    width: 80px;
+    height: 83.5px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 100px;
+}
+.blankLine {
+    margin: 0;
+}
+.nice {
+    position: absolute;
+    top: 321px;
+    left: 372px;
+    font-size: 96px;
+    font-family: 'Inria Serif';
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 1213px;
+    height: 547px;
+}
+.componentNavigation {
+    align-self: stretch;
+    position: relative;
+    height: 952px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.yourLandmarks {
+    width: 688px;
+    position: relative;
+    font-size: 48px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 253px;
+    flex-shrink: 0;
+}
+.landmarksGallerysIcon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 20px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.pantheonIcon {
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 40%;
+    left: 0%;
+    border-radius: 50px 50px 0px 0px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.pantheon1 {
+    position: absolute;
+    height: 8.8%;
+    width: 66%;
+    top: 64.4%;
+    left: 10%;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    line-height: 150%;
+    display: inline-block;
+}
+.historicalLandmarks {
+    position: absolute;
+    top: 75.6%;
+    left: 10%;
+    letter-spacing: -0.02em;
+    line-height: 150%;
+}
+.i {
+    position: absolute;
+    height: 4.4%;
+    width: 27.56%;
+    top: 64.2%;
+    left: 68%;
+    font-size: 36px;
+    letter-spacing: -0.02em;
+    line-height: 150%;
+    display: inline-block;
+    font-weight: 300;
+    text-align: center;
+}
+.andAbove {
+    position: absolute;
+    top: 82.8%;
+    left: 10%;
+    letter-spacing: -0.02em;
+    line-height: 150%;
+}
+.starIcon {
+    position: absolute;
+    top: 336px;
+    left: 391px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.pantheon {
+    position: absolute;
+    top: 1147px;
+    left: 1349px;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 450px;
+    height: 500px;
+    cursor: pointer;
+}
+.centrePompidou {
+    position: absolute;
+    top: 1147px;
+    left: 724px;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 450px;
+    height: 500px;
+    cursor: pointer;
+}
+.museeDorsay1 {
+    position: absolute;
+    height: 8.8%;
+    width: 66%;
+    top: 64.4%;
+    left: 10%;
+    letter-spacing: -0.02em;
+    line-height: 150%;
+    display: inline-block;
+}
+.museeDorsay {
+    position: absolute;
+    top: 1147px;
+    left: 99px;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 450px;
+    height: 500px;
+    cursor: pointer;
+}
+.palaisGarnier {
+    position: absolute;
+    top: 598px;
+    left: 1349px;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 450px;
+    height: 500px;
+    cursor: pointer;
+}
+.notreDame {
+    position: absolute;
+    top: 598px;
+    left: 99px;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 450px;
+    height: 500px;
+    cursor: pointer;
+}
+.sacredHeartChurch {
+    position: absolute;
+    top: 598px;
+    left: 724px;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 450px;
+    height: 500px;
+    cursor: pointer;
+}
+.louvre1 {
+    position: absolute;
+    height: 8.8%;
+    width: 66%;
+    top: 64.4%;
+    left: 10%;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    line-height: 150%;
+    display: inline-block;
+}
+.louvre {
+    position: absolute;
+    top: 49px;
+    left: 724px;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 450px;
+    height: 500px;
+    cursor: pointer;
+}
+.triumphalArch {
+    position: absolute;
+    top: 49px;
+    left: 1349px;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 450px;
+    height: 500px;
+    cursor: pointer;
+}
+.eiffelTower {
+    position: absolute;
+    height: 8.8%;
+    width: 66%;
+    top: 64.4%;
+    left: 10%;
+    font-size: 32px;
+    letter-spacing: -0.02em;
+    line-height: 150%;
+    display: inline-block;
+}
+.tourEffel {
+    position: absolute;
+    top: 49px;
+    left: 99px;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 450px;
+    height: 500px;
+    cursor: pointer;
+}
+.landmarksGallerys {
+    width: 1920px;
+    position: relative;
+    height: 1736px;
+    font-family: 'Inria Serif';
+}
+.email {
+    white-space: pre-wrap;
+}
+.ingenieriedepaixgmailcom {
+    color: #a007c7;
+}
+.emailIngenieriedepaixgmailContainer {
+    position: absolute;
+    height: 13.33%;
+    width: 20.83%;
+    top: 64.67%;
+    left: 69.22%;
+    letter-spacing: -0.02em;
+    line-height: 150%;
+    text-align: center;
+    display: inline-block;
+}
+.phone0623340257Container {
+    position: absolute;
+    height: 9.67%;
+    width: 16.98%;
+    top: 52.33%;
+    left: 72.5%;
+    display: inline-block;
+}
+.rueMademoiselle75015 {
+    color: #a007c7;
+    white-space: pre-wrap;
+}
+.address56Container {
+    position: absolute;
+    top: 110px;
+    left: 1299px;
+    letter-spacing: -0.02em;
+    line-height: 150%;
+    text-align: center;
+}
+.logoOng2Icon {
+    position: absolute;
+    top: 52px;
+    left: 860px;
+    width: 200px;
+    height: 198.8px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.contactUs {
+    position: absolute;
+    top: 42px;
+    left: 1441px;
+    font-size: 36px;
+    display: inline-block;
+    width: 351px;
+    height: 72px;
+}
+.followUs {
+    position: absolute;
+    top: 74px;
+    left: 91px;
+    font-size: 36px;
+    display: inline-block;
+    width: 351px;
+    height: 72px;
+}
+.youtubeIcon {
+    position: absolute;
+    top: 147px;
+    left: 237px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.instagramIcon {
+    position: absolute;
+    top: 145px;
+    left: 322px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.facebookIcon {
+    position: absolute;
+    top: 143px;
+    left: 79px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.linkedinIcon {
+    position: absolute;
+    top: 150px;
+    left: 164px;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.twitterIcon {
+    position: absolute;
+    top: 151px;
+    left: 407px;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.footer {
+    align-self: stretch;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 300px;
+    color: #fff;
+}
+.pageNice {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 1920px;
+    text-align: left;
+    font-size: 24px;
+    color: #000;
+    font-family: Inter;
+}
+

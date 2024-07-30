@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura:wght@400&display=swap');
+body {
+  	margin: 0; line-height: normal;
+}
+
+/* HomePage.module.css */
+.homepage {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 居中对齐 */
+    justify-content: flex-start;
+    gap: 10px;
+    text-align: left;
+    font-size: 40px;
+    color: #fff;
+    font-family: Allura;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    width: 100%;
+    background-color: #000;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 20px; /* 减少填充使其适应屏幕 */
+    box-sizing: border-box;
+    position: relative;
+    gap: 10px;
+  }
+  
+  .jinfiniParis {
+    position: relative;
+    font-size: 40px;
+    font-family: Allura;
+    color: #fff;
+    text-align: left;
+    }
+    
+  
+  .homeIcon, .phoneIcon, .menuIcon {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    margin: 0 !important;
+    top: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .homeIcon {
+    left: 10px;
+    z-index: 1;
+  }
+  
+  .phoneIcon {
+    right: 112px;
+    z-index: 2;
+  }
+  
+  .menuIcon {
+    right: 37px;
+    z-index: 3;
+  }
+  
+  .body {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    color: #000;
+    font-family: 'Abhaya Libre ExtraBold';
+    box-sizing: border-box;
+  }
+  
+  .centreCommercialDe {
+    position: relative;
+    text-align: center; /* 文本居中 */
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .homeIcon, .phoneIcon, .menuIcon {
+      position: static;
+      margin: 5px;
+    }
+  }
+  

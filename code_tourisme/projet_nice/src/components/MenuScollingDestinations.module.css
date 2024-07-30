@@ -1,0 +1,131 @@
+.destinations {
+    position: absolute;
+    top: 36px;
+    left: 822px;
+    text-align: center;
+    display: inline-block;
+    width: 253px;
+    height: 75px;
+}
+.paris {
+    position: absolute;
+    top: 150px;
+    left: 318px;
+    display: inline-block;
+    width: 240px;
+    height: 82px;
+    cursor: pointer;
+}
+.etretat {
+    position: absolute;
+    top: 268px;
+    left: 1295px;
+    display: inline-block;
+    width: 317px;
+    height: 82px;
+    cursor: pointer;
+}
+.honfleur {
+    position: absolute;
+    top: 268px;
+    left: 1009px;
+    display: inline-block;
+    width: 334px;
+    height: 82px;
+    cursor: pointer;
+}
+.laRochelle {
+    position: absolute;
+    top: 268px;
+    left: 296px;
+    display: inline-block;
+    width: 334px;
+    height: 82px;
+    cursor: pointer;
+}
+.strasbourg {
+    position: absolute;
+    top: 150px;
+    left: 1287px;
+    display: inline-block;
+    width: 333px;
+    height: 82px;
+    cursor: pointer;
+}
+.bordeaux {
+    position: absolute;
+    top: 268px;
+    left: 676px;
+    display: inline-block;
+    width: 333px;
+    height: 82px;
+    cursor: pointer;
+}
+.marseilles {
+    position: absolute;
+    top: 379px;
+    left: 1295px;
+    display: inline-block;
+    width: 333px;
+    height: 82px;
+    cursor: pointer;
+}
+.rennes {
+    position: absolute;
+    top: 379px;
+    left: 1016px;
+    display: inline-block;
+    width: 334px;
+    height: 82px;
+    cursor: pointer;
+}
+.nice {
+    position: absolute;
+    top: 157px;
+    left: 667px;
+    display: inline-block;
+    width: 240px;
+    height: 82px;
+    cursor: pointer;
+}
+.toulouse {
+    position: absolute;
+    top: 379px;
+    left: 318px;
+    display: inline-block;
+    width: 240px;
+    height: 82px;
+    cursor: pointer;
+}
+.lourdes {
+    position: absolute;
+    top: 379px;
+    left: 667px;
+    display: inline-block;
+    width: 240px;
+    height: 82px;
+    cursor: pointer;
+}
+.lyon {
+    position: absolute;
+    top: 140px;
+    left: 1017px;
+    display: inline-block;
+    width: 240px;
+    height: 83px;
+    cursor: pointer;
+}
+.menuScollingDestinations {
+    width: 1920px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 500px;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: left;
+    font-size: 64px;
+    color: #000;
+    font-family: Italianno;
+}
+
