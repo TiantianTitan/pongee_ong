@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura:wght@400&display=swap');
 body {
+    width: 100%;
   	margin: 0; line-height: normal;
+    overflow-x: hidden;
+}
+
+
+
+.homepage, .header, .body, .videoContainer {
+  width: 100%;
+  box-sizing: border-box; 
+  background-color:rgb(255, 235, 205);
 }
 
 /* HomePage.module.css */
@@ -19,6 +29,7 @@ body {
     box-sizing: border-box;
   }
   
+  /** header **/
   .header {
     width: 100%;
     background-color: #000;
@@ -27,7 +38,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 4px 20px; /* 减少填充使其适应屏幕 */
+    padding: 4px 20px; 
     box-sizing: border-box;
     position: relative;
     gap: 10px;
@@ -40,8 +51,7 @@ body {
     color: #fff;
     text-align: left;
     }
-    
-  
+
   .homeIcon, .phoneIcon, .menuIcon {
     width: 48px;
     height: 48px;
@@ -51,7 +61,7 @@ body {
     overflow: hidden;
     flex-shrink: 0;
   }
-  
+
   .homeIcon {
     left: 10px;
     z-index: 1;
@@ -66,24 +76,77 @@ body {
     right: 37px;
     z-index: 3;
   }
-  
+
+  /** body **/
   .body {
+    margin-top: auto;
     width: 100%;
-    background-color: #fff;
+    height: auto;
     display: flex;
-    flex-direction: row;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
-    align-items: flex-start;
     justify-content: center;
     color: #000;
     font-family: 'Abhaya Libre ExtraBold';
     box-sizing: border-box;
   }
-  
-  .centreCommercialDe {
+
+  .videoContainer {
     position: relative;
-    text-align: center; /* 文本居中 */
+    width: 98%;
+    height: 700px;
+    align-items: center;
+    display: flex;
   }
+  
+  .bg_video {
+    position: absolute;
+    width: 55%;
+    height: auto;
+    top: 0px;
+    right: 0px;
+    display: block;
+  }
+
+    .jinfiniLogo {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    width: 12%; 
+    height: auto;
+  }
+  
+
+  .bg_video2 {
+    position: absolute;
+    width: 55%;
+    height: auto;
+    top: 250px; 
+    left: 0px;
+    display: block;
+  }
+
+  .bg_text,.bg_text2 {
+    width: 45%;
+    position: absolute;
+    text-align: center; 
+    font-size:34px;
+
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+
+  .bg_text{
+    top: 100px;
+  }
+
+  .bg_text2 {
+    top: 480px;
+    right: 0px;
+  }
+
   
   @media (max-width: 768px) {
     .header {
@@ -91,10 +154,9 @@ body {
       height: auto;
       padding: 10px;
     }
-  
-    .homeIcon, .phoneIcon, .menuIcon {
-      position: static;
-      margin: 5px;
-    }
+    
+    
+    
+
   }
   
